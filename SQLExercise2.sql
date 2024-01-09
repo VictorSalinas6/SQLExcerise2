@@ -20,7 +20,7 @@ WHERE NOT price = 11.99;
 -- find all products and sort them by price FROM greatest to least
 
 SELECT * FROM products
-ORDER by price;
+ORDER by price DESC;
 
 -- find all employees who don't have a middle initial
 
